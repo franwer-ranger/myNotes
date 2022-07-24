@@ -1,0 +1,9 @@
+.prueba{
+    @apply m-10 w-36 h-36 rounded-lg shadow bg-gray-200 hover:bg-gray-900 hover:text-white;
+    @apply transition duration-300 text-center;
+}
+
+.prueba {
+    font-size: 30px;
+    color: rgb
+}
