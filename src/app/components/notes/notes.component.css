@@ -1,4 +1,8 @@
-.notes-component {
+.notes-component{
+	@apply h-full flex items-start;
+}
+
+.notes-component__container {
 	@apply p-8 flex flex-wrap gap-4 sm:gap-8;
 }
 
@@ -18,4 +22,8 @@
 	display: -webkit-box;
 	-webkit-line-clamp: 8;
 	-webkit-box-orient: vertical;
+}
+
+.notes-component__modal {
+	@apply hidden;
 }

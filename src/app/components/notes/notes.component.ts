@@ -12,4 +12,8 @@ export class NotesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showModal(noteId: string){
+    console.log(noteId)
+  }
+
 }
