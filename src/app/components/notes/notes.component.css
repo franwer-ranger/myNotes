@@ -7,9 +7,8 @@
 }
 
 .notes-component__item {
-	@apply w-52 h-56 hover:w-56 hover:h-60 ease-in-out duration-300;
-	@apply rounded-lg shadow-lg bg-cyan-300 hover:bg-cyan-400;
-	@apply p-4 flex flex-col items-center text-white cursor-pointer;
+	@apply w-52 h-56 hover:scale-110 bg-cyan-300 hover:bg-cyan-400 ease-in-out duration-300;
+	@apply rounded-lg shadow-lg p-4 flex flex-col items-center text-white cursor-pointer;
 }
 
 .notes-component__name {
